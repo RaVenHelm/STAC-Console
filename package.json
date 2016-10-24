@@ -1,0 +1,50 @@
+{
+  "name": "stac-console",
+  "version": "1.0.0",
+  "description": "A console view into the STAC server",
+  "main": "build/index.js",
+  "scripts": {
+    "test": "mocha --compilers js:babel-register",
+    "build": "babel src -d build --ignore spec.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RaVenHelm/STAC-Console.git"
+  },
+  "keywords": [
+    "STAC",
+    "Console",
+    "NodeJS"
+  ],
+  "author": "T.C. Enders <tyberius.enders@unco.edu>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/RaVenHelm/STAC-Console/issues"
+  },
+  "homepage": "https://github.com/RaVenHelm/STAC-Console#readme",
+  "dependencies": {
+    "koa": "^1.2.4",
+    "koa-bodyparser": "^2.2.0",
+    "koa-morgan": "^1.0.1",
+    "koa-mount": "^1.3.0",
+    "koa-passport": "^1.3.0",
+    "koa-router": "^5.4.0",
+    "koa-serve": "^0.1.7",
+    "koa-session": "^3.4.0",
+    "koa-views": "^5.1.2",
+    "pug": "^2.0.0-beta6"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.16.0",
+    "babel-eslint": "^7.0.0",
+    "babel-polyfill": "^6.16.0",
+    "babel-preset-latest": "^6.16.0",
+    "babel-register": "^6.16.3",
+    "chai": "^3.5.0",
+    "eslint": "^3.8.1",
+    "mocha": "^3.1.2",
+    "node-sass": "^3.10.1",
+    "nodemon": "^1.11.0",
+    "supertest": "^2.0.1"
+  }
+}
