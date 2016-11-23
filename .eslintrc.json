@@ -11,6 +11,9 @@
     "mocha": true,
     "es6": true
   },
+  "ignore": [
+    "dist"
+  ],
   "rules": {
     "array-bracket-spacing": ["error", "never"],
     "block-spacing": ["error", "always"],
